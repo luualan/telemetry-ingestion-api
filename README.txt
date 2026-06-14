@@ -1,4 +1,11 @@
 README — Ingestion API (FastAPI)
+A FastAPI REST API for data ingestion and processing. I separated the code into models, repository, service, and route layers.
+
+The models handle validation and response shapes, the repository owns storage and filtering, the service owns business logic like summary aggregation, and the routes stay thin and handle HTTP concerns.
+
+The app currently is using in-memory storage, but it can be easily swapped with a database by updating the repository layer without changing the rest of the application.
+
+
 Quick reference for running the app locally and running the test suite.
 
 Prerequisites
