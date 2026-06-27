@@ -11,9 +11,11 @@ This project separates the application into **models**, **repository**, **servic
 
 The app currently uses **in-memory storage**, but it can be easily swapped with a database by updating the repository layer without changing the rest of the application.
 
-## API Documentation
-
 ![Swagger UI](assets/swagger-ui.png)
+
+## Live Demo
+
+* Backend: https://telemetry-ingestion-api.onrender.com/docs
 
 ## Quick Start
 
